@@ -2,6 +2,8 @@
 
 **Created by [muhammedabubakr88-ctrl](https://github.com/muhammedabubakr88-ctrl)**
 
+🔗 **Live Demo:** [mtn-churn-dashbord.streamlit.app](https://mtn-churn-dashbord.streamlit.app/)
+
 An interactive Streamlit dashboard that analyzes customer and network data to predict customer churn (customers leaving) and dropped call risk for a telecom provider, modeled on companies like MTN Nigeria.
 
 ## 🎯 Overview
@@ -66,9 +68,10 @@ Currently uses a small built-in sample dataset (7 customers) with `CallDrops`, `
 ## 👤 Author
 
 **muhammedabubakr88-ctrl**
-Data Analyst · AI Workflow Architect · Web Developer
+Data Scientist · AI Workflow Architect · Web Developer · Business Insight & Decision-Making
 
 - GitHub: [@muhammedabubakr88-ctrl](https://github.com/muhammedabubakr88-ctrl)
 - LinkedIn: *(add your LinkedIn link once set up)*
 - Fiverr: *(add your Fiverr profile link once set up)*
 - Upwork: *(add your Upwork profile link once set up)*
+-
