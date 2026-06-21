@@ -171,8 +171,8 @@ if predict_btn:
     rcol1, rcol2 = st.columns([1, 2])
     with rcol1:
         st.markdown(
-            f'<div class="{css_class}"><h2 style="color:{color}!important;margin:0">{emoji} {prediction}%</h2>'
-            f'<h4 style="color:{color}!important;margin:0.3rem 0">{label}</h4></div>',
+            f'<div class="{css_class}"><h2 style="color:#ffffff!important;margin:0">{emoji} {prediction}%</h2>'
+            f'<h4 style="color:#ffffff!important;margin:0.3rem 0">{label}</h4></div>',
             unsafe_allow_html=True)
     with rcol2:
         st.markdown("**Customer Profile Entered:**")
