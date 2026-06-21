@@ -90,7 +90,7 @@ if show_raw:
         if val <= 30:   return "background-color:#0d3b2e; color:#27ae60"
         elif val <= 60: return "background-color:#3b2a0d; color:#f39c12"
         else:           return "background-color:#3b0d0d; color:#e74c3c"
-    styled = df.style.applymap(color_risk, subset=["ChurnRisk"])
+    styled = df.style.map(color_risk, subset=["ChurnRisk"])
     st.dataframe(styled, use_container_width=True, hide_index=True)
 
 st.markdown('<div class="section-divider"></div>', unsafe_allow_html=True)
